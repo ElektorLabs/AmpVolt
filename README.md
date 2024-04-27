@@ -1,4 +1,4 @@
-# AmpVolt: Precision Measurement Module - 240141 📊
+# AmpVolt: VI Measurement Module - 240141 📊
 
 ## Overview 🌐
 AmpVolt, designed for the any Arduino or ESP32 project, is a  module for accurately measuring current and voltage with ease. Featuring a voltage divider, INA169 for current sensing, and an ADS1015 ADC, it's equipped with an OLED display for immediate feedback. Suitable for electrical projects requiring up to 50V and 5A measurements, it offers modular connectivity through Grove, Qwiic, and 2.54mm pitch connectors.
