@@ -48,11 +48,13 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.6
+          "min_clearance": 0.7
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|189739999|31220001|bcedd013-1de3-4412-8b24-1b7f77969bfa|c451709f-0576-4541-a95d-b5cc3cf69fc3"
+      ],
       "meta": {
         "version": 2
       },
@@ -73,6 +75,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -432,7 +435,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "AmpVolt-V1.0.kicad_pro",
+    "filename": "AmpVolt-V1.1.kicad_pro",
     "version": 1
   },
   "net_settings": {
